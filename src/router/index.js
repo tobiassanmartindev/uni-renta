@@ -20,7 +20,7 @@ const router = createRouter({
         },
         {
           path: '/alquileres',
-          component: () => import('../views/PropertiesView.vue')
+          component: () => import('../views/AlquileresView.vue')
         }
         // Properties
       ]

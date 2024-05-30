@@ -115,7 +115,7 @@ import router from '@/router'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'PropertiesViews',
+  name: 'AlquileresView',
   data() {
     return {
       alquileres: [
