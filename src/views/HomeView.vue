@@ -8,8 +8,7 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-10 text-center">
           <h1 class="heading" data-aos="fade-up">Encuentra tu hogar ideal para tus estudios</h1>
-          <form
-            action="#"
+          <div
             class="narrow-w form-search d-flex align-items-stretch mb-3"
             data-aos="fade-up"
             data-aos-delay="200"
@@ -19,8 +18,8 @@
               class="form-control px-4"
               placeholder="Busca por facultad o por ciudad"
             />
-            <button type="submit" class="btn btn-primary">Buscar</button>
-          </form>
+            <button class="btn btn-primary" @click="$router.push('/alquileres')">Buscar</button>
+          </div>
         </div>
       </div>
     </div>

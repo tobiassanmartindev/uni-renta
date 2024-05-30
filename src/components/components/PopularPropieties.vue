@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row mb-5 align-items-center">
         <div class="col-lg-6">
-          <h2 class="font-weight-bold text-primary heading">Propiedades populares</h2>
+          <h2 class="font-weight-bold text-primary heading">Propiedades destacadas</h2>
         </div>
         <div class="col-lg-6 text-lg-end">
           <p>
@@ -39,7 +39,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -65,7 +67,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -92,7 +96,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -119,7 +125,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -146,7 +154,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -173,7 +183,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -200,7 +212,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -227,7 +241,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
@@ -254,7 +270,9 @@
                       </span>
                     </div>
 
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
+                      >Ver detalles</a
+                    >
                   </div>
                 </div>
               </div>
