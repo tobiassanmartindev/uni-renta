@@ -279,3 +279,9 @@
   }
 }
 </style>
+
+<script>
+export default defineComponent({
+  name: 'AboutView'
+})
+</script>
