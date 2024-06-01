@@ -7,9 +7,8 @@
         </div>
         <div class="col-lg-6 text-lg-end">
           <p>
-            <a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4"
-              >Ver todas las propiedades</a
-            >
+            <a @click="$router.push('/alquileres')" class="btn btn-primary text-white py-3 px-4">Ver todas las
+              propiedades</a>
           </p>
         </div>
       </div>
@@ -17,274 +16,15 @@
         <div class="col-12">
           <div class="property-slider-wrap">
             <div class="my-slider">
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_1.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_2.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_3.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_4.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_5.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_6.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_7.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_8.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="/src/assets/images/img_1.jpg" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2"><span>$1,291,000</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                    <span class="city d-block mb-3">California, USA</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">2 beds</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">2 baths</span>
-                      </span>
-                    </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3"
-                      >Ver detalles</a
-                    >
-                  </div>
-                </div>
+              <div class="property-item" v-for="card in properties">
+                <CardComponent :price="card.price" :address="card.address" :city="card.city" :beds="card.beds"
+                  :baths="card.baths" />
               </div>
             </div>
             <div id="customize-toggle" class="d-none"></div>
             <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
-              <span class="prev" data-controls="prev" aria-controls="property" tabindex="-1"
-                >Anterior</span
-              >
-              <span class="next" data-controls="next" aria-controls="property" tabindex="-1"
-                >Siguiente</span
-              >
+              <span class="prev" data-controls="prev" aria-controls="property" tabindex="-1">Anterior</span>
+              <span class="next" data-controls="next" aria-controls="property" tabindex="-1">Siguiente</span>
             </div>
           </div>
         </div>
@@ -295,16 +35,52 @@
 
 <script>
 import { defineComponent } from 'vue'
-// import { tns } from './node_modules/tiny-slider/src/tiny-slider'
+import CardComponent from './CardComponent.vue'
+import { supabase } from '@/clients/supabase';
+
 export default defineComponent({
   name: 'PopularPropieties',
+  components: { CardComponent },
   data() {
     return {
-      texto: 'Hola mundo'
+      texto: 'Hola mundo',
+      properties: [
+        {
+          price: '$1,291,000',
+          address: '5232 California Fake, Ave. 21BC',
+          city: 'California, USA',
+          beds: 3,
+          baths: 1,
+        },
+        {
+          price: '$1,291,000',
+          address: '5232 California Fake, Ave. 21BC',
+          city: 'California, USA',
+          beds: 4,
+          baths: 3,
+        },
+        {
+          price: '$1,291,000',
+          address: '5232 California Fake, Ave. 21BC',
+          city: 'California, USA',
+          beds: 4,
+          baths: 3,
+        },
+        {
+          price: '$1,291,000',
+          address: '5232 California Fake, Ave. 21BC',
+          city: 'California, USA',
+          beds: 4,
+          baths: 3,
+        }
+      ]
     }
   },
-  methods: {},
+  methods: {
+
+  },
   mounted() {
+
     tns({
       container: '.my-slider',
       items: 3,

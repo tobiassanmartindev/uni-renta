@@ -19,18 +19,15 @@
             </li>
 
             <li class="cursor-pointer" :class="$route.path == '/about' ? 'active' : ''">
-              <a @click="$router.push('about')">Sobre nosotros</a>
+              <a @click="$router.push('/about')">Sobre nosotros</a>
             </li>
-            <li><a class="cursor-pointer" href="contact.html">Contactanos</a></li>
-            <li><a class="cursor-pointer" href="contact.html">Quiero publicar</a></li>
+            <li><a class="cursor-pointer">Quiero publicar</a></li>
+            <li><a class="cursor-pointer login rounded" @click="loginWithGoogle()">Iniciar Sesion</a></li>
           </ul>
 
-          <a
-            href="#"
+          <a href="#"
             class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
-            data-toggle="collapse"
-            data-target="#main-navbar"
-          >
+            data-toggle="collapse" data-target="#main-navbar">
             <span></span>
           </a>
         </div>
@@ -39,7 +36,24 @@
   </nav>
 </template>
 
+<style scoped>
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.login {
+  background-color: #007070;
+  color: #fff !important;
+}
+
+.login:hover {
+  background-color: #004444;
+  color: #fff !important;
+}
+</style>
+
 <script>
+import { supabase } from '@/clients/supabase';
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'NavBar',
@@ -48,6 +62,20 @@ export default defineComponent({
       texto: 'Hola mundo'
     }
   },
-  methods: {}
+  methods: {
+    async loginWithGoogle() {
+      const { data, error } = await supabase.auth.signInWithOAuth({
+        provider: 'github',
+        options: {
+          queryParams: {
+            prompt: 'consent',
+            redirectTo: '/',
+          },
+        },
+      })
+    }
+  },
+  mounted() {
+  },
 })
 </script>

@@ -8,16 +8,8 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-10 text-center">
           <h1 class="heading" data-aos="fade-up">Encuentra tu hogar ideal para tus estudios</h1>
-          <div
-            class="narrow-w form-search d-flex align-items-stretch mb-3"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <input
-              type="text"
-              class="form-control px-4"
-              placeholder="Busca por facultad o por ciudad"
-            />
+          <div class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+            <input type="text" class="form-control px-4" placeholder="Busca por facultad o por ciudad" />
             <button class="btn btn-primary" @click="$router.push('/alquileres')">Buscar</button>
           </div>
         </div>
@@ -35,7 +27,7 @@
             <span class="flaticon-house"></span>
             <h3 class="mb-3">Nuestros Alquileres</h3>
             <p>Variedad de opciones para estudiantes universitarios.</p>
-            <p><a href="#" class="learn-more">Más Información</a></p>
+            <!-- <p><a href="#" class="learn-more">Más Información</a></p> -->
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
@@ -43,7 +35,7 @@
             <span class="flaticon-building"></span>
             <h3 class="mb-3">Fácil y Rápido</h3>
             <p>Encuentra tu alojamiento ideal en pocos clics.</p>
-            <p><a href="#" class="learn-more">Más Información</a></p>
+            <!-- <p><a href="#" class="learn-more">Más Información</a></p> -->
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
@@ -51,7 +43,7 @@
             <span class="flaticon-house-3"></span>
             <h3 class="mb-3">Soporte al Usuario</h3>
             <p>Estamos aquí para ayudarte en cada paso del camino.</p>
-            <p><a href="#" class="learn-more">Más Información</a></p>
+            <!-- <p><a href="#" class="learn-more">Más Información</a></p> -->
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
@@ -59,7 +51,7 @@
             <span class="flaticon-house-1"></span>
             <h3 class="mb-3">Propiedades Verificadas</h3>
             <p>Alquileres seguros y confiables para estudiantes.</p>
-            <p><a href="#" class="learn-more">Más Información</a></p>
+            <!-- <p><a href="#" class="learn-more">Más Información</a></p> -->
           </div>
         </div>
       </div>
@@ -166,6 +158,6 @@ export default defineComponent({
   methods: {},
   components: {
     PopularPropieties
-  }
+  },
 })
 </script>
