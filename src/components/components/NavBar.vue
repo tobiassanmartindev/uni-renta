@@ -65,7 +65,7 @@ export default defineComponent({
   methods: {
     async loginWithGoogle() {
       const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'github',
+        provider: 'google',
         options: {
           queryParams: {
             prompt: 'consent',
@@ -73,6 +73,7 @@ export default defineComponent({
           },
         },
       })
+      console.log(":)")
     }
   },
   mounted() {
