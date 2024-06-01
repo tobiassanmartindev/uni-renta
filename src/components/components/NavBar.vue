@@ -22,7 +22,7 @@
               <a @click="$router.push('/about')">Sobre nosotros</a>
             </li>
             <li><a class="cursor-pointer">Quiero publicar</a></li>
-            <li><a class="cursor-pointer login rounded" @click="loginWithGoogle()">Iniciar Sesion</a></li>
+            <li><a class="cursor-pointer login rounded">Iniciar Sesion</a></li>
           </ul>
 
           <a href="#"
