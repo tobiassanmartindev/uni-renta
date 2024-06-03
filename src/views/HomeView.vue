@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <PopularPropieties />
+  <!-- <PopularPropieties /> -->
 
   <section class="features-1">
     <div class="container">
@@ -157,7 +157,7 @@ export default defineComponent({
   },
   methods: {},
   components: {
-    PopularPropieties
+    // PopularPropieties
   },
 })
 </script>
