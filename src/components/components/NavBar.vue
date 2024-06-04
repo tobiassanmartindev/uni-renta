@@ -21,7 +21,7 @@
             <li class="cursor-pointer" :class="$route.path == '/about' ? 'active' : ''">
               <a @click="$router.push('/about')">Sobre nosotros</a>
             </li>
-            <li><a class="cursor-pointer">Quiero publicar</a></li>
+            <li><a @click="$router.push('/publicar')" class="cursor-pointer">Quiero publicar</a></li>
             <li><a class="cursor-pointer login rounded">Iniciar Sesion</a></li>
           </ul>
 
@@ -53,7 +53,7 @@
 </style>
 
 <script>
-import { supabase } from '@/clients/supabase';
+// import { supabase } from '@/clients/supabase';
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'NavBar',
@@ -63,20 +63,9 @@ export default defineComponent({
     }
   },
   methods: {
-    async loginWithGoogle() {
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          queryParams: {
-            prompt: 'consent',
-            redirectTo: '/',
-          },
-        },
-      })
-      console.log(":)")
-    }
   },
   mounted() {
+    
   },
 })
 </script>

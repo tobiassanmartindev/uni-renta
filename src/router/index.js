@@ -28,6 +28,11 @@ const router = createRouter({
           name: 'detallealquiler',
           path: '/alquileres/:id',
           component: () => import('../views/DetalleAlquiler.vue')
+        },
+        {
+          name: 'publicar',
+          path: '/publicar',
+          component: () => import('../views/PublicarView.vue')
         }
         // Properties
       ]

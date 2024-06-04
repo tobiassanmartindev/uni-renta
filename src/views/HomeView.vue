@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <!-- <PopularPropieties /> -->
+  <PopularPropieties />
 
   <section class="features-1">
     <div class="container">
@@ -146,7 +146,8 @@
 
 <script>
 import PopularPropieties from '@/components/components/PopularPropieties.vue'
-import Footer from '@/components/components/Footer.vue'
+// import Footer from '@/components/components/Footer.vue'
+
 import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'HomeView',
@@ -157,7 +158,7 @@ export default defineComponent({
   },
   methods: {},
   components: {
-    // PopularPropieties
+    PopularPropieties
   },
 })
 </script>

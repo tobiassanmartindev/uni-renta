@@ -16,9 +16,8 @@
         <div class="col-12">
           <div class="property-slider-wrap">
             <div class="my-slider">
-              <div class="property-item" v-for="card in properties">
-                <CardComponent :price="card.price" :address="card.address" :city="card.city" :beds="card.beds"
-                  :baths="card.baths" />
+              <div class="property-item" v-for="card in popularProperties" :key="card">
+                <CardComponent :id="card.id" :precio="card.precio" :barrio="card.barrio" :ciudad="card.ciudad" :banios="card.banios" :ambientes="card.ambientes" />
               </div>
             </div>
             <div id="customize-toggle" class="d-none"></div>
@@ -44,50 +43,29 @@ export default defineComponent({
   data() {
     return {
       texto: 'Hola mundo',
-      properties: [
-        {
-          price: '$1,291,000',
-          address: '5232 California Fake, Ave. 21BC',
-          city: 'California, USA',
-          beds: 3,
-          baths: 1,
-        },
-        {
-          price: '$1,291,000',
-          address: '5232 California Fake, Ave. 21BC',
-          city: 'California, USA',
-          beds: 4,
-          baths: 3,
-        },
-        {
-          price: '$1,291,000',
-          address: '5232 California Fake, Ave. 21BC',
-          city: 'California, USA',
-          beds: 4,
-          baths: 3,
-        },
-        {
-          price: '$1,291,000',
-          address: '5232 California Fake, Ave. 21BC',
-          city: 'California, USA',
-          beds: 4,
-          baths: 3,
-        }
+      popularProperties: [
+        
       ]
     }
   },
   methods: {
+    async getPopularProperties(){
+      
+      let { data: propiedades_populares } = await supabase
+        .from('propiedades_populares')
+        .select('*')
 
+        this.popularProperties = propiedades_populares
+    }
   },
   mounted() {
-
-    tns({
+    this.getPopularProperties().then(()=>{
+      tns({
       container: '.my-slider',
       items: 3,
       slideBy: 'page',
       autoplay: true,
       controlsContainer: '.controls',
-      autoplay: true,
       autoplayButton: '#customize-toggle',
       gutter: '30',
       responsive: {
@@ -102,6 +80,8 @@ export default defineComponent({
         }
       }
     })
+    });
+    
   }
 })
 </script>
