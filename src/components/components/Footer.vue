@@ -1,7 +1,7 @@
 <template>
   <div class="site-footer">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-4">
           <div class="widget">
             <h3>Contact</h3>
@@ -14,9 +14,7 @@
               </li>
             </ul>
           </div>
-          <!-- /.widget -->
         </div>
-        <!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <div class="widget">
             <h3>Sources</h3>
@@ -37,9 +35,7 @@
               <li><a href="#">Creative</a></li>
             </ul>
           </div>
-          <!-- /.widget -->
         </div>
-        <!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <div class="widget">
             <h3>Links</h3>
@@ -70,10 +66,8 @@
               </li>
             </ul>
           </div>
-          <!-- /.widget -->
         </div>
-        <!-- /.col-lg-4 -->
-      </div>
+      </div> -->
       <!-- /.row -->
 
       <div class="row mt-5">
@@ -94,11 +88,7 @@
           </p>
           <div>
             Make with love by
-            <a
-              href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/"
-              target="_blank"
-              >Toto</a
-            >
+            <a href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/" target="_blank">Toto</a>
           </div>
         </div>
       </div>

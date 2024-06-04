@@ -28,26 +28,33 @@
             Inicia Sesion para continuar
           </p>
           <p class="text-black-50">
-           <button>Inicia Sesion</button> O  <button>Registrate</button>
+            <button>Inicia Sesion</button> O <button>Registrate</button>
           </p>
           <p class="text-black-50">
-           Para continuar
+            Para continuar
           </p>
         </div>
         <div class="col-lg-6">
           <p class="text-black-50">
             <span class="text-black">Que tenemos en cuenta para las publicaciones?</span> <br />
-            Validamos la informacion de cada publicacion con el email del anunciante, verificamos la calidad de las fotos.
+            Validamos la informacion de cada publicacion con el email del anunciante, verificamos la calidad de las
+            fotos.
           </p>
           <p class="text-black-50">
             <span class="text-black">Publicaciones</span> <br />
-            Cada anunciante tendra 3 publicaciones totalmente Gratis disponibles, luego de esto se cobrara una tarifa extra.
+            Cada anunciante tendra 3 publicaciones totalmente Gratis disponibles, luego de esto se cobrara una tarifa
+            extra.
           </p>
         </div>
       </div>
     </div>
   </div>
 </template>
+<style>
+.hero.page-inner.overlay {
+  background-image: url('../assets/images/hero_bg_3.jpg');
+}
+</style>
 
 <script>
 import { defineComponent } from 'vue'
