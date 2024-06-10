@@ -69,29 +69,6 @@
         </div>
       </div> -->
       <!-- /.row -->
-
-      <div class="row mt-5">
-        <div class="col-12 text-center">
-          <!-- 
-            **==========
-            NOTE: 
-            Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-            **==========
-          -->
-
-          <p>
-            Copyright &copy;
-            {{ new Date().getFullYear() }}
-            . All Rights Reserved. &mdash; Designed with love by
-            <a href="https://untree.co">Untree.co</a>
-            <!-- License information: https://untree.co/license/ -->
-          </p>
-          <div>
-            Make with love by
-            <a href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/" target="_blank">Toto</a>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- /.container -->
   </div>
